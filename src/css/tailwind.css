@@ -698,7 +698,7 @@ h1 {
   border-color: transparent;
 }
 
-.huddle-container-middle .register-btn p {
+.huddle-container-middle .register-btn span {
   font-size: 17px;
   --tw-text-opacity: 1;
   color: hsl(257 40% 49% / var(--tw-text-opacity));

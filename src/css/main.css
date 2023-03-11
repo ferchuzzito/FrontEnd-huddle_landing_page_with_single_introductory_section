@@ -55,7 +55,7 @@ h1 {
   @apply bg-White rounded-[20px] w-[200px] mt-10 h-10 lg:h-[60px] lg:rounded-[30px];
   border-color: transparent;
 }
-.huddle-container-middle .register-btn p {
+.huddle-container-middle .register-btn span {
   @apply text-[17px] text-Violet;
 }
 
