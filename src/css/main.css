@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+*,
+a,
+p {
+  @apply font-Poppins text-White no-underline m-0 font-normal text-sm
+}
+body {
+  @apply bg-Violet;
+}
+
+h1 {
+  @apply text-headingsm md:text-headingmd md:w-[505px] lg:text-headingmd lg:w-[505px];
+}
+.huddle-container{
+  @apply bg-Pattern-mobile bg-[top_center] bg-no-repeat bg-contain px-[30px] md:bg-Pattern-desktop md:bg-top md:pl-20 md:pr-20 lg:bg-Pattern-desktop lg:pl-20 lg:pr-20; 
+}
+
+.huddle-container .huddle-container-top {
+  @apply pt-[30px];
+}
+.huddle-container .huddle-container-top img {
+  @apply h-6 w-[147px];
+}
+.huddle-container-middle {
+  @apply flex flex-col lg:flex-row;
+}
+.huddle-container-middle .huddle-hero-image,
+.huddle-container-middle .huddle-hero-description {
+  @apply items-center flex flex-col ml-auto mr-auto;
+}
+
+.huddle-container-middle .huddle-hero-image {
+  @apply mt-[66px]
+}
+.huddle-container-middle .huddle-hero-image img {
+  @apply h-[210px] w-[297px] md:h-[346px] md:w-[448px] lg:h-[493px] lg:w-[696px];
+}
+.huddle-container-middle .huddle-hero-description {
+  @apply mt-5 md:items-center md:ml-auto md:mr-auto lg:flex lg:justify-center lg:ml-[70px] lg:max-w-[526px] lg:flex-wrap;
+}
+.huddle-container-middle .main-heading h1,
+.huddle-container-middle .para-desc p{
+  @apply text-center lg:text-left;
+}
+.huddle-container-middle .para-desc p {
+  @apply mt-[15px] w-[308px] lg:w-[526px] lg:text-[17px];
+}
+
+.huddle-container-middle .register-btn {
+  @apply bg-White rounded-[20px] w-[200px] mt-10 h-10 lg:h-[60px] lg:rounded-[30px];
+  border-color: transparent;
+}
+.huddle-container-middle .register-btn p {
+  @apply text-[17px] text-Violet;
+}
+
+.huddle-container-bottom {
+  @apply flex flex-row items-center justify-center mt-[70px] lg:justify-end lg:mt-10 lg:pr-20;
+}
+.huddle-container-bottom .facebook,
+.huddle-container-bottom .twitter,
+.huddle-container .instagram {
+  @apply items-end border-White border-solid border-[2px] rounded-full flex h-[31px] justify-center w-8 mt-[9px] mr-[9px];
+  background-color: transparent;
+}
+.huddle-container-bottom .facebook img,
+.huddle-container-bottom .twitter img{
+  @apply h-[28px];
+}
+.huddle-container-bottom .instagram img{
+  @apply h-[28px];
+}
+
+.attribution {
+  @apply text-xs text-center;
+}
+.attribution a {
+  @apply text-blue;
+}
+
